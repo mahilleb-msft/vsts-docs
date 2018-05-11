@@ -101,7 +101,7 @@ You can pass environment variables of the build machine into build steps. For ex
 | ![](../../../tasks/utility/_img/command-line.png) **Utility: Command Line** | Tool: `echo`<br />Arguments: `$(PATH)` |
 
 > [!NOTE]
-> If you have defined the a variable of the same name (for example `PATH`) on the [variables tab](variables.md), then your value overrides the environment variable when you use it as shown above.
+> If you have defined a variable of the same name (for example `PATH`) on the [variables tab](variables.md), then your value overrides the environment variable when you use it as shown above.
 
 ## Predefined variables
 
@@ -234,7 +234,7 @@ Scope: Agent
                 
 The name of the agent that is registered with the pool.
 
-If you are using an on-premises agent, this directory is specified by you. See agents(../concepts/agents/agents.md).
+If you are using an on-premises agent, this directory is specified by you. See [Agents](../../../concepts/agents/agents.md).
 
 ### Agent.WorkFolder
 
